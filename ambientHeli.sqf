@@ -17,7 +17,6 @@ zp_addMarkerToHeli = {
          
 };
 
-
 zp_startHeliTour = {
     
     _vehicle = _this select 0;
@@ -85,6 +84,7 @@ zp_heliInit = {
     _heliArray = ["C_Heli_Light_01_civil_F"];
 
 	_y = 0;
+    
 	_heliPads= nearestObjects[position server,["Land_HelipadSquare_F","Land_HelipadRescue_F","Land_HelipadCivil_F"],5000000];
 	
     {    
