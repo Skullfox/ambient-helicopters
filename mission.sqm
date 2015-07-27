@@ -47,13 +47,13 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={14685.633,17.91,16780.605};
+					position[]={14702.982,17.91,16750.781};
 					id=0;
 					side="LOGIC";
 					vehicle="Logic";
 					leader=1;
 					skill=0.60000002;
-					text="Server";
+					text="server";
 				};
 			};
 		};
@@ -65,7 +65,8 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={14729.01,17.91,16747.688};
+					position[]={14717.117,17.91,16749.832};
+					azimut=-179.42693;
 					id=1;
 					side="WEST";
 					vehicle="B_soldier_AA_F";
@@ -81,7 +82,7 @@ class Mission
 		items=3;
 		class Item0
 		{
-			position[]={14681.537,17.91,16749.623};
+			position[]={14685.825,17.91,16731.496};
 			id=2;
 			side="EMPTY";
 			vehicle="Land_HelipadSquare_F";
@@ -89,7 +90,7 @@ class Mission
 		};
 		class Item1
 		{
-			position[]={14716.686,17.91,16740.689};
+			position[]={14715.319,17.91,16731.141};
 			id=3;
 			side="EMPTY";
 			vehicle="Land_HelipadRescue_F";
@@ -97,22 +98,11 @@ class Mission
 		};
 		class Item2
 		{
-			position[]={14745.53,17.91,16738.064};
+			position[]={14742.217,17.91,16731.242};
 			id=4;
 			side="EMPTY";
 			vehicle="Land_HelipadCivil_F";
 			skill=0.60000002;
-		};
-	};
-	class Markers
-	{
-		items=1;
-		class Item0
-		{
-			position[]={14802.703,17.91,16787.572};
-			name="test";
-			text="test";
-			type="hd_destroy";
 		};
 	};
 };
