@@ -52,7 +52,7 @@ zp_startHeliTour = {
             
 			if(zp_heliDev)then{
                 
-               systemchat format ["%1: Helicopter with ID %2: %3m",name _d,_id,_meters];
+               //systemchat format ["%1: Helicopter with ID %2: %3m",name _d,_id,_meters];
                
             };           
             
@@ -63,7 +63,7 @@ zp_startHeliTour = {
                 
                 if(zp_heliDev)then{
                  
-                  systemchat format ["Helicopter with ID %1 landing",_id];
+                  //systemchat format ["Helicopter with ID %1 landing",_id];
                   
                 };
                 
@@ -182,19 +182,19 @@ zp_launchTime = {
     
     _vehicle setfuel 1;
     
-    systemChat format ["ID: %1 macht %2s pause.",_id,_timeout];
+    //systemChat format ["ID: %1 macht %2s pause.",_id,_timeout];
     
     sleep _timeout;
     
     if(_vehicle distance _endPad < 50 )then{
             
-			systemChat format ["ID: %1 starting.",_id];
+			//systemChat format ["ID: %1 starting.",_id];
              
 			[_vehicle,_endPad,_startpad,_id] call zp_startHeliTour;
             
     }else{
         
-			systemChat format ["ID: %1 starting.",_id];
+			//systemChat format ["ID: %1 starting.",_id];
              
 			[_vehicle,_startPad,_endPad,_id] call zp_startHeliTour;
     };

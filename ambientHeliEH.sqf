@@ -17,7 +17,7 @@ if(damage _veh > 0.3)then{
        	_m setMarkerColor "ColorRed";
         _m setMarkerType "hd_destroy";
         
-        systemchat format ["Heli ID %1 deleted",_id];
+        //systemchat format ["Heli ID %1 deleted",_id];
     };
     
     
