@@ -20,14 +20,14 @@ class Mission
 	randomSeed=12826931;
 	class Intel
 	{
-		timeOfChanges=1800.0002;
-		startWeather=0.30000001;
-		startWind=0.1;
-		startWaves=0.1;
-		forecastWeather=0.30000001;
-		forecastWind=0.1;
-		forecastWaves=0.1;
-		forecastLightnings=0.1;
+		briefingName="Ambient helicopters";
+		startWeather=0.29999998;
+		startWind=0.099999994;
+		startWaves=0.099999994;
+		forecastWeather=0.29999998;
+		forecastWind=0.099999994;
+		forecastWaves=0.099999994;
+		forecastLightnings=0.099999994;
 		year=2035;
 		month=6;
 		day=24;
@@ -65,8 +65,8 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={14717.117,17.91,16749.832};
-					azimut=-179.42693;
+					position[]={14695.913,17.91,16764.814};
+					azimut=-177.67186;
 					id=1;
 					side="WEST";
 					vehicle="B_soldier_AA_F";
@@ -82,7 +82,7 @@ class Mission
 		items=3;
 		class Item0
 		{
-			position[]={14685.825,17.91,16731.496};
+			position[]={14672.152,17.91,16733.318};
 			id=2;
 			side="EMPTY";
 			vehicle="Land_HelipadSquare_F";
@@ -90,7 +90,7 @@ class Mission
 		};
 		class Item1
 		{
-			position[]={14715.319,17.91,16731.141};
+			position[]={14696.151,17.91,16733.438};
 			id=3;
 			side="EMPTY";
 			vehicle="Land_HelipadRescue_F";
@@ -98,11 +98,21 @@ class Mission
 		};
 		class Item2
 		{
-			position[]={14742.217,17.91,16731.242};
+			position[]={14720.902,17.91,16733.08};
 			id=4;
 			side="EMPTY";
 			vehicle="Land_HelipadCivil_F";
 			skill=0.60000002;
+		};
+	};
+	class Markers
+	{
+		items=1;
+		class Item0
+		{
+			position[]={14851.069,17.904688,16556.484};
+			name="mainWait1";
+			type="Empty";
 		};
 	};
 };
