@@ -27,14 +27,14 @@ To disable the dev marker modify the zp_heliDev variable.
 zp_heliDev = false;
 ```
 
-Add new vehicles, open the **ambientHeli.sqf** and jump to line **84** extend the array.
+Add new vehicles, open the **ambientHeli.sqf** and edit the **_heliArray** array.
 ```
 #!python
 
 _heliArray = ["C_Heli_Light_01_civil_F"];
 ```
 
-To change the heli spawn helipads edit line **88**, you can add here ArmA I & ArmA II helipads.
+To change the heli spawn helipads edit the **_heliPadClasses** array, you can add ArmA I & ArmA II helipads.
 ```
 #!python
 
