@@ -7,7 +7,7 @@
 It search for all defined helipads and create pairs, startpad and endpad. Then it create a random helicopter and give the order to move to the paired helipad and rest for a random time, about 8min then it will return to the first helipad and rest again. If the helicopter is damaged(30%) it will be deleted and a new one will start from the first helipad.
  
 ### Video: ###
-https://www.youtube.com/watch?v=fsWI-RYcd_s
+[https://www.youtube.com/watch?v=fsWI-RYcd_s](https://www.youtube.com/watch?v=fsWI-RYcd_s)
 
 
 ### Install info: ###
