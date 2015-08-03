@@ -1,5 +1,10 @@
 # Ambient Helicopters
 
+[https://forums.bistudio.com/topic/183417-release-ambient-helicopters/
+](https://forums.bistudio.com/topic/183417-release-ambient-helicopters/)
+
+[http://www.armaholic.com/page.php?id=29210](http://www.armaholic.com/page.php?id=29210)
+
 ![heli.png](https://bitbucket.org/repo/88BadX/images/254885951-heli.png)
 
 ### How it works: ###
